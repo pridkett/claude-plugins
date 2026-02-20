@@ -1,8 +1,0 @@
-{
-  "name": "weather-influx",
-  "description": "Query Ambient Weather station data from InfluxDB v1 via MCP with pre-formatted InfluxQL queries",
-  "version": "0.0.1",
-  "author": { "name": "Patrick Wagstrom" },
-  "repository": "https://github.com/pridkett/influx_weather_cowork_plugin",
-  "skills": "./skills/"
-}

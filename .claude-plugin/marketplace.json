@@ -3,10 +3,12 @@
   "owner": { "name": "Patrick Wagstrom" },
   "plugins": [
     {
-      "name": "weather-influx",
-      "source": "./",
+      "name": "influx-weather",
+      "source": "./influx-weather",
       "description": "Ambient Weather station InfluxDB queries via MCP",
-      "version": "0.0.1"
+      "version": "0.0.1",
+      "category": "personal",
+      "tags": ["weather", "personal", "iot", "analytics"]
     }
   ]
 }
