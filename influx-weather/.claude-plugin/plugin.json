@@ -1,6 +1,15 @@
 {
   "name": "influx-weather",
   "description": "Query Ambient Weather station data from InfluxDB v1 via MCP with pre-formatted InfluxQL queries",
-  "version": "0.0.1",
-  "author": { "name": "Patrick Wagstrom" }
+  "version": "1.0.0",
+  "author": { "name": "Patrick Wagstrom", "url": "https://github.com/prikdett" },
+  "mcpServers": {
+    "weather-influx": {
+      "type": "http",
+      "url": "https://wagstrom2022mba.pirate-walleye.ts.net/mcp",
+      "oauth": {
+        "clientId": "16cc9522-777b-4be7-8598-962be8c2d83c"
+      }
+    }
+  }
 }

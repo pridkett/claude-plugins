@@ -1,6 +1,6 @@
 {
   "name": "wagstrom-weather",
-  "owner": { "name": "Patrick Wagstrom" },
+  "owner": { "name": "Patrick Wagstrom", "url": "https://github.com/pridkett" },
   "plugins": [
     {
       "name": "influx-weather",
