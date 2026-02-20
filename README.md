@@ -78,10 +78,10 @@ front it with Caddy and serve a static file at that path.
 `/etc/caddy/oauth-authorization-server.json`:
 ```json
 {
-  "issuer": "https://pocketid-external.pirate-walleye.ts.net",
-  "authorization_endpoint": "https://pocketid-external.pirate-walleye.ts.net/authorize",
-  "token_endpoint": "https://pocketid-external.pirate-walleye.ts.net/api/oidc/token",
-  "jwks_uri": "https://pocketid-external.pirate-walleye.ts.net/.well-known/jwks.json",
+  "issuer": "https://YOUR_POCKET_ID_SERVER",
+  "authorization_endpoint": "https://YOUR_POCKET_ID_SERVER/authorize",
+  "token_endpoint": "https://YOUR_POCKET_ID_SERVER/api/oidc/token",
+  "jwks_uri": "https://YOUR_POCKET_ID_SERVER/.well-known/jwks.json",
   "response_types_supported": ["code"],
   "grant_types_supported": ["authorization_code", "refresh_token"],
   "code_challenge_methods_supported": ["S256"],
@@ -101,7 +101,7 @@ for this server at `https://wagstrom2022mba.pirate-walleye.ts.net/mcp`:
 ```json
 {
   "resource": "https://wagstrom2022mba.pirate-walleye.ts.net/mcp",
-  "authorization_servers": ["https://pocketid-external.pirate-walleye.ts.net"],
+  "authorization_servers": ["https://YOUR_POCKET_ID_SERVER"],
   "scopes_supported": ["openid", "profile", "email", "groups"],
   "bearer_methods_supported": ["header"]
 }
