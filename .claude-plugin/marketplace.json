@@ -1,12 +1,12 @@
 {
-  "name": "wagstrom-weather",
+  "name": "wagstrom-plugins",
   "owner": { "name": "Patrick Wagstrom", "url": "https://github.com/pridkett" },
   "plugins": [
     {
       "name": "influx-weather",
       "source": "./influx-weather",
       "description": "Ambient Weather station InfluxDB queries via MCP",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "category": "personal",
       "tags": ["weather", "personal", "iot", "analytics"]
     }
