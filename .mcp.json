@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weather-influx": {
+      "type": "http",
+      "url": "https://wagstrom2022mba.pirate-walleye.ts.net/mcp",
+      "oauth": {
+        "clientId": "16cc9522-777b-4be7-8598-962be8c2d83c"
+      }
+    }
+  }
+}
